@@ -1,0 +1,66 @@
+body {
+  margin: 20px;
+  font-family: arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#wrapper
+{
+  border: 2px dotted slategray;
+  width: 800px;
+  margin: 0 auto;
+}
+
+#links
+{
+  border: 1px dashed black;
+  margin: 8px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-family: helvetica;
+}
+
+#imageBorder
+{
+  display: inline-block;
+  border: 1px dashed black;
+  padding: 10px;
+  margin: 10px;
+  float: left;
+}
+
+p
+{
+  padding-top: 10px;
+  margin: 5px;
+}
+
+#home, #about, #myRepo
+{
+  background-color: slategray;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+#head
+{
+  background-color: beige;
+  margin-left: 10px;
+  margin-right:10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  font-family: arial black;
+}
+
+a[href="#"]
+{
+  color: slategrey;
+}
