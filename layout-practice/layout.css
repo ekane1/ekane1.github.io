@@ -6,8 +6,18 @@
   background: black;
   width:150px;
   height:45px;
+  margin-right: auto;
 }
 
 header {
   display: flex;
+}
+
+header a {
+  display: inline-block;
+  background: gray;
+  padding: 10px 30px 10px 30px;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
 }
