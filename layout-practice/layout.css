@@ -35,3 +35,8 @@ header a {
 #big-promo {
   padding-top: 200px;
 }
+
+.promo-message {
+  width: 60%;
+  padding: 50px;
+}
