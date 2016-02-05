@@ -22,13 +22,19 @@ header {
   margin-right: auto;
 }
 
-header a {
+.pill-button {
   display: inline-block;
   background: gray;
   padding: 10px 30px;
   border-radius: 20px;
   color: white;
   text-decoration: none;
+}
+
+.promo {
+  background: white;
+  color: black;
+  font-size: 18px;
 }
 
 /* Big Promo */
