@@ -2,15 +2,24 @@
   box-sizing: border-box;
 }
 
+.main-container {
+  width: 1000px;
+  margin: 0 auto 0 auto;
+}
+
+.promo-container {
+  background: lightgray;
+}
+
+header {
+  display: flex;
+}
+
 .branding {
   background: black;
   width:150px;
   height:45px;
   margin-right: auto;
-}
-
-header {
-  display: flex;
 }
 
 header a {
@@ -20,4 +29,9 @@ header a {
   border-radius: 20px;
   color: white;
   text-decoration: none;
+}
+
+/* Big Promo */
+#big-promo {
+  
 }
