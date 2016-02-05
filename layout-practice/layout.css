@@ -1,1 +1,13 @@
+* {
+  box-sizing: border-box;
+}
 
+.branding {
+  background: black;
+  width:150px;
+  height:45px;
+}
+
+header {
+  display: flex;
+}
