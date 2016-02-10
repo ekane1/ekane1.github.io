@@ -64,3 +64,13 @@ header {
   border-radius: 50%;
   overflow: hidden;
 }
+
+/* Buy it now */
+.product-buy-it-now {
+  display: flex;
+}
+
+.product-info {
+  padding: 20px;
+  text-align: right;
+}
