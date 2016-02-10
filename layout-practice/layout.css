@@ -48,7 +48,7 @@ header {
 }
 
 /* Product Features */
-.product-features {
+.product-features, .product-buy-it-now{
   display: flex;
 }
 
@@ -65,12 +65,11 @@ header {
   overflow: hidden;
 }
 
-/* Buy it now */
 .product-buy-it-now {
-  display: flex;
+  align-items: center;
 }
 
 .product-info {
-  padding: 20px;
   text-align: right;
+  padding: 20px;
 }
