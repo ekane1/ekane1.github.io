@@ -73,3 +73,11 @@ header {
   text-align: right;
   padding: 20px;
 }
+
+/* Product Reviews*/
+#product-reviews {
+  background: skyblue;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
