@@ -46,3 +46,8 @@ header {
   width: 60%;
   padding: 50px;
 }
+
+/* Product Features */
+.product-features {
+  display: flex;
+}
