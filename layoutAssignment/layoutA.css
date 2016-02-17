@@ -1,17 +1,27 @@
-.redBox {
-  background: red;
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  left: 0;
-  top: 0;
+.firstContainer {
+  width: 960px;
+  height: 570px;
+  background: pink; /*temp background*/
 }
 
-.greenBox {
-  background: green;
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  right: 0;
-  top: 0;
+.firstSpace {
+  width: 960px;
+  height: 130px;
+}
+
+.secondContainer {
+  width: 960px;
+  height: 570px;
+  background: orange; /*temp background*/
+}
+
+.secondSpace {
+  width: 960px;
+  height: 130px;
+}
+
+.thirdContainer {
+  width: 960px;
+  height: 570px;
+  background: purple; /*temp background*/
 }
