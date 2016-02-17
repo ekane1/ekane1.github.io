@@ -1,1 +1,17 @@
+.redBox {
+  background: red;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
 
+.greenBox {
+  background: green;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
