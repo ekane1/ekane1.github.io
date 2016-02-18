@@ -54,6 +54,30 @@
   margin-left: 20%;
 }
 
+.redRec {
+  width: 240px;
+  height: 570px;
+  background: red;
+}
+
+.greenRec {
+  width: 240px;
+  height: 570px;
+  background: green;
+}
+
+.blueRec {
+  width: 240px;
+  height: 570px;
+  background: blue;
+}
+
+.yellowRec {
+  width: 240px;
+  height: 570px;
+  background: yellow;
+}
+
 .secondSpace {
   width: 960px;
   height: 130px;
