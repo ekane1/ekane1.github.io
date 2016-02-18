@@ -11,24 +11,18 @@
   background: red;
   width: 200px;
   height: 200px;
-  position: absolute;
-  left: 0%;
 }
 
 .greenBox {
   background: green;
   width: 200px;
   height: 200px;
-  position: absolute;
-  right: 18.9%;
 }
 
 .blueBox {
   background: blue;
   width: 200px;
   height: 200px;
-  position: absolute;
-  top: 107.49%;
 }
 
 .yellowBox {
@@ -36,8 +30,6 @@
   width: 200px;
   height: 200px;
   position: absolute;
-  right: 18.9%;
-  top: 107.49%;
 }
 
 .firstSpace {
