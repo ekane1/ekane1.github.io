@@ -29,6 +29,7 @@
   background: yellow;
   width: 200px;
   height: 200px;
+  position: absolute;
 }
 
 .firstSpace {
@@ -79,6 +80,37 @@
   width: 960px;
   height: 570px;
   border-style: solid;
-  display: flex;
   margin-left: 18%;
+}
+
+.redHolder {
+  width: 960;
+  height: 160;
+}
+
+.topRed {
+  background: red;
+  width: 920px;
+  height: 120px;
+  margin: 20px;
+}
+
+.greenBlueHolder {
+  width: 960px;
+  height: 415px;
+  display: flex;
+}
+
+.leftGreen {
+  background: green;
+  height: 395px;
+  width: 175px;
+  margin: 0px 20px 20px 20px;
+}
+
+.rightBlue {
+  background: blue;
+  height: 395;
+  width: 730px;
+  margin: 0px 20px 20px 0px;
 }
