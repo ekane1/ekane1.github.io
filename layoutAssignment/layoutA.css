@@ -2,15 +2,27 @@
 .firstContainer {
   width: 960px;
   height: 570px;
-  display: flex;
   border-style: solid;
   margin-left: 18%;
+}
+
+.redGreen {
+  width: 960px;
+  height: 370px;
+  display: flex;
+}
+
+.blueYellow {
+  width: 960px;
+  height: 200px;
+  display: flex;
 }
 
 .redBox {
   background: red;
   width: 200px;
   height: 200px;
+  margin: 0px 560px 0px 0px;
 }
 
 .greenBox {
@@ -23,6 +35,7 @@
   background: blue;
   width: 200px;
   height: 200px;
+  margin: 0px 560px 0px 0px;
 }
 
 .yellowBox {
