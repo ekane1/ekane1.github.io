@@ -1,7 +1,43 @@
+/*First Container*/
 .firstContainer {
   width: 960px;
   height: 570px;
-  background: pink; /*temp background*/
+  display: flex;
+  border-style: solid;
+  margin-left: 20%;
+}
+
+.redBox {
+  background: red;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 20.49%;
+}
+
+.greenBox {
+  background: green;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: 18.9%;
+}
+
+.blueBox {
+  background: blue;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 107.49%;
+}
+
+.yellowBox {
+  background: yellow;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: 18.9%;
+  top: 107.49%;
 }
 
 .firstSpace {
@@ -9,10 +45,13 @@
   height: 130px;
 }
 
+/*Second Container*/
 .secondContainer {
   width: 960px;
   height: 570px;
-  background: orange; /*temp background*/
+  border-style: solid;
+  display: flex;
+  margin-left: 20%;
 }
 
 .secondSpace {
@@ -20,8 +59,11 @@
   height: 130px;
 }
 
+/*Third Container*/
 .thirdContainer {
   width: 960px;
   height: 570px;
-  background: purple; /*temp background*/
+  border-style: solid;
+  display: flex;
+  margin-left: 20%;
 }
