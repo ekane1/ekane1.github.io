@@ -4,7 +4,7 @@
   height: 570px;
   display: flex;
   border-style: solid;
-  margin-left: 15%;
+  margin-left: 18%;
 }
 
 .redBox {
@@ -29,7 +29,6 @@
   background: yellow;
   width: 200px;
   height: 200px;
-  position: absolute;
 }
 
 .firstSpace {
@@ -43,7 +42,7 @@
   height: 570px;
   border-style: solid;
   display: flex;
-  margin-left: 15%;
+  margin-left: 18%;
 }
 
 .redRec {
@@ -81,5 +80,5 @@
   height: 570px;
   border-style: solid;
   display: flex;
-  margin-left: 15%;
+  margin-left: 18%;
 }
