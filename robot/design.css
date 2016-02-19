@@ -1,1 +1,62 @@
+.head {
+  background: skyblue;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
 
+.neck {
+  background: pink;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 58%;
+}
+
+.torso {
+  background: purple;
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 75%;
+  margin: auto;
+}
+
+.eyeL {
+  background: black;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  left: 20%;
+  top: 30%;
+}
+
+.eyeR {
+  background: darkgreen;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  right: 20%;
+  top: 30%;
+}
+
+.mouth {
+  background: crimson;
+  height: 15px;
+  width: 80px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 70%;
+}
