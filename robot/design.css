@@ -159,3 +159,19 @@
 .shoulderR {
   right: 165px;
 }
+
+.upArmR, .upArmL {
+  width: 150px;
+  height: 30px;
+  position: absolute;
+  top: 115px;
+  margin: auto;
+}
+
+.upArmL {
+  left: 25px;
+}
+
+.upArmR {
+  right: 25px;
+}
