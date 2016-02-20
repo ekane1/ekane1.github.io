@@ -270,3 +270,52 @@
 .kneeR {
   right: 173px;
 }
+
+.calfL, .calfR {
+  position: absolute;
+  margin: auto;
+  width: 35px;
+  height: 150px;
+  top: 475px;
+}
+
+.calfL {
+  left: 176px;
+}
+
+.calfR {
+  right: 176px;
+}
+
+.ankleR, .ankleL {
+  position: absolute;
+  margin: auto;
+  width: 30px;
+  height: 30px;
+  top: 610px;
+  border-radius: 50%;
+}
+
+.ankleL {
+  left: 188px;
+}
+
+.ankleR {
+  right: 188px;
+}
+
+.footL, .footR {
+  position: absolute;
+  margin: auto;
+  width: 90px;
+  height: 35px;
+  top: 605px;
+}
+
+.footL {
+  left: 121px;
+}
+
+.footR {
+  right: 121px;
+}
