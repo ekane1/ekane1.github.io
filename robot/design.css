@@ -141,3 +141,21 @@
   height: 50px;
   top: 260px;
 }
+
+
+.shoulderL, .shoulderR {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  top: 110px;
+}
+
+.shoulderL {
+  left: 165px;
+}
+
+.shoulderR {
+  right: 165px;
+}
