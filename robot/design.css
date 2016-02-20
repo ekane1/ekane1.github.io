@@ -1,3 +1,15 @@
+.neck, .hairBallL, .hairBallR, .hairBallT, .waist, .shoulderL, .shoulderR, .elbowL, .elbowR, .handL, .handR {
+  background: orange;
+}
+
+.chest, .pelvis, .upArmL, .upArmR, .lowArmL, .lowArmR {
+  background: navy;
+}
+
+.hairL, .hairT, .hairR {
+  background: purple;
+}
+
 .robot {
   position: relative;
   width: 500px;
@@ -15,13 +27,12 @@
   position: absolute;
   width: 100px;
   height: 100px;
-  background: skyblue;
+  background: navy;
 }
 
 .hairBallL, .hairBallT, .hairBallR {
   width: 20px;
   height: 20px;
-  background: forestgreen;
   position: absolute;
   margin: auto;
   border-radius: 50%;
@@ -44,7 +55,6 @@
 }
 
 .hairL, .hairR {
-  background: navy;
   width: 75px;
   height: 10px;
   position: absolute;
@@ -62,7 +72,6 @@
 }
 
 .hairT {
-  background: navy;
   width: 10px;
   height: 75px;
   position: absolute;
@@ -75,7 +84,7 @@
 .eyeL, .eyeR {
   width: 20px;
   height: 18px;
-  background: magenta;
+  background: white;
   position: absolute;
   margin: auto;
   top: 25px;
@@ -101,7 +110,6 @@
 }
 
 .neck {
-  background: pink;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -116,14 +124,12 @@
 }
 
 .chest {
-  background: purple;
   width: 125px;
   height: 90px;
   top: 125px;
 }
 
 .waist {
-  background: orange;
   width: 75px;
   height: 75px;
   border-radius: 50%;
@@ -131,8 +137,7 @@
 }
 
 .pelvis {
-  background: blue;
-  width: 100px;
+  width: 115px;
   height: 50px;
   top: 260px;
 }
