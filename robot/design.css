@@ -99,3 +99,40 @@
   margin: auto;
   top: 70px;
 }
+
+.neck {
+  background: pink;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: 90px;
+}
+
+.chest, .waist, .pelvis, .neck {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.chest {
+  background: purple;
+  width: 125px;
+  height: 90px;
+  top: 125px;
+}
+
+.waist {
+  background: orange;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  top: 200px;
+}
+
+.pelvis {
+  background: blue;
+  width: 100px;
+  height: 50px;
+  top: 260px;
+}
