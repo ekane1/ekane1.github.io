@@ -1,7 +1,7 @@
 .robot {
   position: relative;
   width: 500px;
-  margin: 50px auto;
+  margin: 100px auto;
 }
 
 .head {
@@ -42,8 +42,59 @@
   top: 25px;
 }
 
-.hairL, .hairT, .hairR {
-  width: 50px;
+.hairL, .hairR {
+  background: navy;
+  width: 75px;
   height: 10px;
-  background color: navyblue;
+  position: absolute;
+  margin: auto;
+}
+
+.hairL {
+  left: -80px;
+  top: 30px;
+}
+
+.hairR {
+  right: -80px;
+  top: 30px;
+}
+
+.hairT {
+  background: navy;
+  width: 10px;
+  height: 75px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: auto;
+  top: -80px;
+}
+
+.eyeL, .eyeR {
+  width: 20px;
+  height: 18px;
+  background: magenta;
+  position: absolute;
+  margin: auto;
+  top: 15px;
+}
+
+.eyeL {
+  left: 15px;
+}
+
+.eyeR {
+  right: 15px;
+}
+
+.mouth {
+  background: crimson;
+  width: 40px;
+  height: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 70px;
 }
