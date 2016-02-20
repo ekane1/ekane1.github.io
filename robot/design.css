@@ -1,62 +1,49 @@
+.robot {
+  position: relative;
+  width: 500px;
+  margin: 50px auto;
+}
+
 .head {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.head {
+  position: absolute;
+  width: 100px;
+  height: 100px;
   background: skyblue;
-  height: 200px;
-  width: 200px;
+}
+
+.hairBallL, .hairBallT, .hairBallR {
+  width: 20px;
+  height: 20px;
+  background: forestgreen;
+  position: absolute;
+  margin: auto;
   border-radius: 50%;
-  position: absolute;
+}
+
+.hairBallL {
+  left: -15px;
+  top: 25px;
+}
+
+.hairBallT {
   left: 0;
   right: 0;
-  margin: auto;
+  top: -15px;
 }
 
-.eyeL {
-  background: black;
-  height: 30px;
-  width: 30px;
-  position: absolute;
-  left: 20%;
-  top: 30%;
+.hairBallR {
+  right: -15px;
+  top: 25px;
 }
 
-.eyeR {
-  background: darkgreen;
-  height: 30px;
-  width: 30px;
-  position: absolute;
-  right: 20%;
-  top: 30%;
-}
-
-.mouth {
-  background: crimson;
-  height: 15px;
-  width: 80px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  top: 70%;
-}
-
-.neck {
-  background: pink;
-  height: 75px;
-  width:75px;
-  border-radius: 50%;
-  position: absolute;
-  margin: auto;
-  left: 0;
-  right: 0;
-  top:58%;
-}
-
-.torso {
-  background: purple;
-  height: 180px;
-  width: 250px;
-  position: absolute;
-  margin: auto;
-  left: 0;
-  right: 0;
-  top: 75%;
+.hairL, .hairT, .hairR {
+  width: 50px;
+  height: 10px;
+  background color: navyblue;
 }
