@@ -9,6 +9,7 @@
   left: 0;
   right: 0;
   margin: auto;
+  border-radius: 50%;
 }
 .head {
   position: absolute;
@@ -77,7 +78,7 @@
   background: magenta;
   position: absolute;
   margin: auto;
-  top: 15px;
+  top: 25px;
 }
 
 .eyeL {
