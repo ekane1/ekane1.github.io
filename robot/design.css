@@ -142,8 +142,7 @@
   top: 260px;
 }
 
-
-.shoulderL, .shoulderR {
+.shoulderL, .shoulderR, .elbowL, .elbowR {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -174,4 +173,48 @@
 
 .upArmR {
   right: 25px;
+}
+
+.elbowR {
+  right: 0;
+}
+
+.lowArmL, .lowArmR {
+  position: absolute;
+  margin: auto;
+}
+
+.lowArmL {
+  width: 25px;
+  height: 160px;
+  top: -40px;
+  left: 8px;
+}
+
+.lowArmR {
+  width: 160px;
+  height: 25px;
+  top: 118px;
+  right: -150px;
+}
+
+.handL, .handR {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  margin: auto;
+}
+
+.handL {
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  top: -90px;
+  left: -10px;
+}
+
+.handR {
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  top: 100px;
+  right: -200px;
 }
