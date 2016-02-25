@@ -34,7 +34,7 @@
   word-spacing: 8px;
 }
 
-.dateAuthor, .photo1, .photo2, .foot{
+.dateAuthor, .photo1, .photo2, .foot, .owl1{
   font-family: Titillium Web;
 }
 
@@ -95,10 +95,22 @@
   text-decoration: underline;
   color: blue;
   line-height: 28.5px;
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 .p1 {
   text-indent: 20px;
   font-size: 120%;
+}
+
+.ad1 {
+  padding: 20px 0 20px 20px;
+  background: black;
+}
+
+.owl1, .owl2, .owl3, .owl4, .randomFox {
+  position: relative;
+  margin: 20px 0 0 0;
+  top: 50px;
+  left: 30px;
 }
