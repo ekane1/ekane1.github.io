@@ -97,3 +97,8 @@
   line-height: 28.5px;
     text-transform: capitalize;
 }
+
+.p1 {
+  text-indent: 20px;
+  font-size: 120%;
+}
