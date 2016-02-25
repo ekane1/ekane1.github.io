@@ -95,4 +95,5 @@
   text-decoration: underline;
   color: blue;
   line-height: 28.5px;
+    text-transform: capitalize;
 }
