@@ -31,6 +31,10 @@ header {
   text-decoration: none;
 }
 
+.pill-button:hover {
+  color: blue;
+}
+
 .promo {
   background: white;
   color: black;
