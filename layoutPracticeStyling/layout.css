@@ -29,6 +29,7 @@ header {
   border-radius: 20px;
   color: white;
   text-decoration: none;
+  font-family: News Cycle;
 }
 
 .pill-button:hover {
@@ -49,6 +50,11 @@ header {
 .promo-message {
   width: 60%;
   padding: 50px;
+}
+
+h1, h3 {
+  font-family: Architects Daughter;
+  text-transform: capitalize;
 }
 
 /* Product Features */
