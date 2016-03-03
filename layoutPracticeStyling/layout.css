@@ -69,6 +69,10 @@ header {
   overflow: hidden;
 }
 
+.feature-image:hover {
+  border:solid;
+}
+
 .product-buy-it-now {
   align-items: center;
 }
