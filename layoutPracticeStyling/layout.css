@@ -8,7 +8,7 @@
 }
 
 .promo-container {
-  background: lightgray;
+  background: #000030;
 }
 
 header {
@@ -50,11 +50,13 @@ header {
 .promo-message {
   width: 60%;
   padding: 50px;
+  color: white;
 }
 
 h1, h3 {
   font-family: Architects Daughter;
   text-transform: capitalize;
+  color: white;
 }
 
 /* Product Features */
@@ -88,9 +90,13 @@ h1, h3 {
   padding: 20px;
 }
 
+h3 {
+  color: black;
+}
+
 /* Product Reviews*/
 #product-reviews {
-  background: skyblue;
+  background: #000030;
   color: white;
   text-align: center;
   padding: 50px;
