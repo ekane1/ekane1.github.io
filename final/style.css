@@ -1,4 +1,21 @@
 .firstContainer {
   background: gray;
   height: 100px;
+  display: flex;
+}
+
+.link1, .link2, .link3, .link4 {
+  position: relative;
+  height: 20px;
+  top: 40%;
+  margin: 0 0 0 20px;
+}
+
+.logo {
+  background: purple;
+  height: 70px;
+  width: 170px;
+  position: absolute;
+  right: 0px;
+  margin: 15px 25px;
 }
