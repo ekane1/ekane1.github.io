@@ -11,31 +11,54 @@
   margin: 0 0 0 20px;
 }
 
+.link1:hover, .link2:hover, .link3:hover, .link4:hover {
+  color: blue;
+}
+
 .logo {
-  background: purple;
+  border: solid;
   height: 70px;
   width: 170px;
   position: absolute;
   right: 0px;
-  margin: 15px 25px;
+  margin: 12px 25px;
 }
 
 .secondContainer {
-  background: pink;
   height: 500px;
 }
 
 .thirdContainer {
-  background: blue;
   height: 300px;
 }
 
 .fourthContainer {
-  background: orange;
   height: 400px;
 }
 
 .lastContainer {
-  background: green;
   height: 100px;
+}
+
+.secondContainer {
+  text-align: center;
+}
+
+h1 {
+  margin: 50px 0 20px 0;
+}
+
+.textSC {
+  width: 450px;
+  position: relative;
+  margin: auto;
+}
+
+.priceButton {
+  border: solid;
+  width: 150px;
+  padding: 5px;
+  position: relative;
+  margin: auto;
+  top: 5%;
 }
