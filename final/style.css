@@ -4,16 +4,22 @@
   display: flex;
 }
 
-.link1, .link2, .link3, .link4 {
+a {
   position: relative;
   height: 20px;
   top: 40%;
   margin: 0 0 0 20px;
+  text-decoration: none;
+  color: black;
 }
 
-.link1:hover, .link2:hover, .link3:hover, .link4:hover {
+a:hover {
   color: blue;
   cursor: pointer;
+}
+
+a:visited {
+  color: purple;
 }
 
 .logo {
