@@ -55,7 +55,7 @@ h1 {
   top: 8%;
 }
 
-.priceButton:hover, .viewFbutton:hover {
+.priceButton:hover, .viewFbutton:hover, priceBut:hover {
   cursor: pointer;
 }
 
