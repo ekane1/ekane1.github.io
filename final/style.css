@@ -78,24 +78,5 @@ h1 {
   margin: 50px 0 0 0;
   height: 500px;
   display: flex;
-}
-
-.leftHalf, .rightHalf {
-  width: 800px;
-  height: 800px;
-  margin: 0 20px 0 20px;
-}
-
-.viewFbutton {
-  border: solid;
-  width: 150px;
-  text-align: center;
-  padding: 5px;
-  margin: 45px 0 0 0;
-}
-
-.bigImage {
-  background: purple;
-  height: 400px;
-  width: 715px;
+  background: blue;
 }
