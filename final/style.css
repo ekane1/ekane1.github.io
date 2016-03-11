@@ -40,7 +40,7 @@ h1 {
   margin: auto;
 }
 
-.priceButton {
+.priceButton, .priceBut {
   border: solid;
   width: 150px;
   padding: 5px;
@@ -113,7 +113,19 @@ h1 {
   width: 50%;
 }
 
-.containerThree {
+.containerThree, .containerFour, .textBelow5Pics {
   text-align: center;
   padding: 20px;
+}
+
+.containerFour {
+  display: flex;
+}
+
+.textBelow5Pics {
+  margin: 15px 400px 20px 400px; 
+}
+
+.priceBut {
+  text-align: center;
 }
