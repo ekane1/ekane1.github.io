@@ -102,3 +102,13 @@ h1 {
 .viewFbutton:hover {
   cursor: pointer;
 }
+
+.topHalf, .bottomHalf {
+  display: flex;
+  margin: 40px 20px;
+}
+
+.f1, .f2, .f3, .f4 {
+  margin: 0px 40px 0 20px;
+  width: 275px;
+}
