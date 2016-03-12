@@ -130,3 +130,13 @@ h1 {
 .priceBut {
   text-align: center;
 }
+
+#blogTitle, .para1 {
+  margin: 20px;
+}
+
+.blogPic1 {
+  float: left;
+  display: flex;
+  margin: 20px;
+}
