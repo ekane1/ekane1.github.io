@@ -140,3 +140,16 @@ h1 {
   display: flex;
   margin: 20px;
 }
+
+.prices {
+  display: flex;
+  margin: 40px 0 0 0;
+}
+
+.price1, .price2, .price3 {
+  position: relative;
+  margin: auto;
+  border: solid;
+  width: 25%;
+  height: 500px;
+}
