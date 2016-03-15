@@ -150,6 +150,29 @@ h1 {
   position: relative;
   margin: auto;
   border: solid;
-  width: 30%;
+  width: 375px;
   height: 500px;
+  text-align: center;
+}
+
+.bPrice, .sPrice, .gPrice {
+  margin: 20px 0 0 0;
+  font-size: 100px;
+}
+
+.mp {
+  font-style: italic;
+}
+
+.b, .s, .g {
+  height: 15%;
+}
+
+.bWords1, .sWords1, .gWords1 {
+  margin: 0 15px;
+}
+
+.bWords2, .sWords2, .gWords2 {
+  margin: 0 15px;
+  height: 100px;
 }
