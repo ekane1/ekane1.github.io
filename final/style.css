@@ -48,6 +48,14 @@ h1 {
   top: 8%;
 }
 
+#a1, #a2 {
+  margin: 0;
+}
+
+#a1:hover, #a2:hover {
+  color: black;
+}
+
 .priceButton:hover, .viewFbutton:hover, .buy1:hover, .buy2:hover, .buy3:hover, .ourBlogButton:hover {
   cursor: pointer;
 }
