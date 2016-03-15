@@ -76,7 +76,7 @@ h1 {
 .fourthContainer {
   padding: 20px 10px 0 10px;
   height: 400px;
-  display: flex;
+  display:flex;
 }
 
 .leftSide {
@@ -229,7 +229,7 @@ h1 {
   margin: 10px;
 }
 
-.leftSide {
+.lSide {
   display: flex;
   margin: 30px 0 0 0;
 }
@@ -252,7 +252,7 @@ h1 {
   display: flex;
 }
 
-.rightSide {
+.rSide {
   width: 800px;
   margin: -10px 0 0 10px;
 }
