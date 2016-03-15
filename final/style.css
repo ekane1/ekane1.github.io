@@ -51,7 +51,7 @@ h1 {
   top: 8%;
 }
 
-.priceButton:hover, .viewFbutton:hover, .buy1, .buy2, .buy3 {
+.priceButton:hover, .viewFbutton:hover, .buy1:hover, .buy2:hover, .buy3:hover, .ourBlogButton:hover {
   cursor: pointer;
 }
 
@@ -185,4 +185,25 @@ h1 {
   border: solid;
   padding: 5px;
   margin: 0 100px;
+}
+
+.notConvinced {
+  height: 275px;
+  text-align: center;
+  margin: 75px 0 0 0;
+}
+
+.notConTitle {
+  font-size: 40px;
+  margin: 0 0 20px 0;
+}
+
+.notConWords {
+  margin: 0 375px 50px 375px;
+}
+
+.ourBlogButton {
+  border: solid;
+  padding: 5px;
+  margin: 0 550px;
 }
