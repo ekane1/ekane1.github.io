@@ -234,7 +234,7 @@ h1 {
   margin: 30px 0 0 0;
 }
 
-.paras1  {
+.paragraphSet1  {
   width: 600px;
   margin: 0 10px;
 }
@@ -243,8 +243,18 @@ h1 {
   margin: 30px 0 0 0;
 }
 
-.para5 {
+.para5, .para6 {
   margin: 30px 10px 0 10px;
+}
+
+.paragraphSet2 {
+  margin: 30px 0 0 10px;
+  display: flex;
+}
+
+.rightSide {
+  width: 600px;
+  margin: -10px 0 0 10px;
 }
 
 .blogPost {
