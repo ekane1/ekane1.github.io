@@ -1,7 +1,8 @@
 .firstContainer {
-  background: gray;
+  background-image: url("http://bgfons.com/upload/grass_texture599.jpg");
   height: 100px;
   display: flex;
+  font-size: 130%;
 }
 
 a {
@@ -215,15 +216,21 @@ h1 {
 
 .foot{
   margin: 50px 0 0 0;
-  background: gray;
+  background-image: url("http://bgfons.com/upload/grass_texture599.jpg");
   height: 100px;
   text-align: right;
   padding: 0 20px;
+  color: white;
 }
 
 .footLinks {
   text-decoration: underline;
   padding: 35px 0 10px 0;
+  font-size: 120%;
+}
+
+#footLink1, #footLink2, #footLink3, #footLink4 {
+  color: white;
 }
 
 .Mine {
