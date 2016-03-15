@@ -18,11 +18,11 @@ a:hover {
   cursor: pointer;
 }
 
-#a1, #a2, #a3 {
+#a1, #a2, #a3, #a4 {
   margin: 0;
 }
 
-#a1:hover, #a2:hover, #a3:hover {
+#a1:hover, #a2:hover, #a3:hover, #a4:hover {
   color: black;
 }
 
