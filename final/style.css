@@ -18,6 +18,14 @@ a:hover {
   cursor: pointer;
 }
 
+#a1, #a2, #a3 {
+  margin: 0;
+}
+
+#a1:hover, #a2:hover, #a3:hover {
+  color: black;
+}
+
 .logo {
   position: absolute;
   right: 0px;
@@ -46,14 +54,6 @@ h1 {
   position: relative;
   margin: auto;
   top: 8%;
-}
-
-#a1, #a2 {
-  margin: 0;
-}
-
-#a1:hover, #a2:hover {
-  color: black;
 }
 
 .priceButton:hover, .viewFbutton:hover, .buy1:hover, .buy2:hover, .buy3:hover, .ourBlogButton:hover {
