@@ -5,7 +5,7 @@
   font-size: 130%;
 }
 
-a {
+a, #topLink1, #topLink2, #topLink3, #topLink4 {
   position: relative;
   height: 20px;
   top: 40%;
@@ -14,7 +14,11 @@ a {
   color: black;
 }
 
-a:hover {
+#topLink1, #topLink2, #topLink3, #topLink4 {
+  color: white;
+}
+
+a:hover, #topLink1:hover, #topLink2:hover, #topLink3:hover, #topLink4:hover {
   color: blue;
   cursor: pointer;
 }
