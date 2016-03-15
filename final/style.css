@@ -51,7 +51,7 @@ h1 {
   top: 8%;
 }
 
-.priceButton:hover, .viewFbutton:hover {
+.priceButton:hover, .viewFbutton:hover, .buy1, .buy2, .buy3 {
   cursor: pointer;
 }
 
@@ -175,4 +175,14 @@ h1 {
 .bWords2, .sWords2, .gWords2 {
   margin: 0 15px;
   height: 100px;
+}
+
+.bWords3, .sWords3, .gWords3 {
+  height: 90px;
+}
+
+.buy1, .buy2, .buy3 {
+  border: solid;
+  padding: 5px;
+  margin: 0 100px;
 }
