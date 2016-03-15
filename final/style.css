@@ -19,12 +19,9 @@ a:hover {
 }
 
 .logo {
-  background: purple;
-  height: 70px;
-  width: 170px;
   position: absolute;
   right: 0px;
-  margin: 12px 25px;
+  margin: 20px 10px;
 }
 
 .secondContainer {
