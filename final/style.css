@@ -207,3 +207,19 @@ h1 {
   padding: 5px;
   margin: 0 550px;
 }
+
+.foot{
+  background: gray;
+  height: 100px;
+  text-align: right;
+  padding: 0 20px;
+}
+
+.footLinks {
+  text-decoration: underline;
+  padding: 35px 0 10px 0;
+}
+
+.Mine {
+  text-decoration: none;
+}
