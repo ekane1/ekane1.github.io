@@ -129,6 +129,7 @@ h1 {
 .f1, .f2, .f3, .f4 {
   margin: 0px 40px 0 20px;
   width: 50%;
+  font-size: 120%;
 }
 
 .containerThree, .containerFour, .textBelow5Pics {
@@ -142,6 +143,7 @@ h1 {
 
 .textBelow5Pics {
   margin: 15px 400px 20px 400px; 
+  font-size: 120%;
 }
 
 .priceBut {
