@@ -215,10 +215,12 @@ h1 {
 .notConTitle {
   font-size: 40px;
   margin: 0 0 20px 0;
+  font-size: 350%;
 }
 
 .notConWords {
   margin: 0 375px 50px 375px;
+  font-size: 130%;
 }
 
 .ourBlogButton {
