@@ -1,62 +1,302 @@
 <!DOCTYPE html
-<html>
-  <head>
-    <title>Pricing</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  
-    <body>
-        <div class="firstContainer">
-      <a id="topLink1" href="http://ekane1.github.io/final/home.html">Home</a>
-      <a id="topLink2" href="http://ekane1.github.io/final/features.html">Features</a>
-      <a id="topLink2" href="http://ekane1.github.io/final/pricing.html">Pricing</a>
-      <a id="topLink2" href="http://ekane1.github.io/final/blog.html">Blog</a>
-      <div class="logo"><img src="https://raw.githubusercontent.com/ekane1/ekane1.github.io/master/final/nature_fun_logo.png" style="width: 300px;"></img></div>
-    </div>
-      <img src="https://images.unsplash.com/photo-1444021907648-1baf30e38d9e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=5249b6bcab3f4339d8d65447f692d134" style="width:100%;height:300px;"></img>
-  <div class="prices">
-    <div class="price1">
-      <div class="bPrice">$100</div>
-      <div class="b">Bronze Package</div>
-      <div class="bWords1">Curabitur ut risus auctor, mollis risus sit amet, convallis nunc.</div>
-      <div class="bWords2">Cras sit amet arcu posuere, convallis mi vitae, rutrum velit. Cras vel sapien vitae ex varius malesuada quis.</div>
-      <div class="bWords3"></div>
-      <div class="buy1">Buy Now</div>
-    </div>
-    <div class="price2">
-      <div class="sPrice"><b>$300</b></div>
-      <div class="s">Silver Package
-        <div class="mp"><small>Most Popular</small></div>
-      </div>
-      <div class="sWords1">Curabitur ut risus auctor, mollis risus sit amet, convallis nunc.</div>
-      <div class="sWords2">Cras sit amet arcu posuere, convallis mi vitae, rutrum velit. Cras vel sapien vitae ex varius malesuada quis. uspendisse potenti. Donec convallis nisi sit amet arcu ornare pellentesque. Vestibulum pretium condimentum dui sit amet porta.</div>
-      <div class="sWords3"></div>
-      <div class="buy2">Buy Now</div>
-    </div>
-    <div class="price3">
-      <div class="gPrice">$600</div>
-      <div class="g">Gold Package</div>
-      <div class="gWords1">Curabitur ut risus auctor, mollis risus sit amet, convallis nunc.</div>
-      <div class="gWords2">Cras sit amet arcu posuere, convallis mi vitae, rutrum velit. Cras vel sapien vitae ex varius malesuada quis. uspendisse potenti. Donec convallis nisi sit amet arcu ornare pellentesque. Vestibulum pretium condimentum dui sit amet porta.</div>
-      <div class="gWords3"><b>Integer molestie mi quis hendrerit porta. Aenean mollis nec sem eget bibendum. Suspendisse mattis dolor ac lacus egestas finibus.</b></div>
-      <div class="buy3">Buy Now</div>
-    </div>
-  </div>
-  <div class="notConvinced">
-    <div class="notConTitle">Not Convinced?</div>
-    <div class="notConWords"> Proin posuere finibus bibendum. Vivamus mauris nisl, tincidunt sed nisl faucibus, lacinia laoreet arcu. Etiam nec maximus risus .Vivamus pulvinar, mi ut sollicitudin accumsan, tellus tellus facilisis mauris.</div>
-    <div class="ourBlogButton"><a id="a4" href="http://ekane1.github.io/final/blog.html">Our Blog</a></div>
-  </div>
-       <div class="foot">
-      <div class="footLinks">
-          <a id="footLink1" href="http://ekane1.github.io/final/home.html">Home</a>
-          <a id="footLink2" href="http://ekane1.github.io/final/features.html">Features</a>
-          <a id="footLink3" href="http://ekane1.github.io/final/pricing.html">Pricing</a>
-        <a id="footLink4" href="http://ekane1.github.io/final/blog.html">Blog</a>
-      </div>
-      <div class="Mine">
-        <small>Echo Kane - DESN 263 - Winter Quarter 2016</small>
-      </div>
-    </div>
-  </body>
-</html>
+.firstContainer {
+  background-image: url("http://bgfons.com/upload/grass_texture599.jpg");
+  height: 100px;
+  display: flex;
+  font-size: 130%;
+}
+
+a, #topLink1, #topLink2, #topLink3, #topLink4 {
+  position: relative;
+  height: 20px;
+  top: 40%;
+  margin: 0 0 0 20px;
+  text-decoration: none;
+  color: black;
+}
+
+#topLink1, #topLink2, #topLink3, #topLink4 {
+  color: white;
+}
+
+a:hover, #topLink1:hover, #topLink2:hover, #topLink3:hover, #topLink4:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+#a1, #a2, #a3, #a4 {
+  margin: 0;
+}
+
+#a1:hover, #a2:hover, #a3:hover, #a4:hover {
+  color: black;
+}
+
+.logo {
+  position: absolute;
+  right: 0px;
+  margin: 20px 10px;
+}
+
+.secondContainer {
+  text-align: center;
+  height: 350px;
+}
+
+h1 {
+  margin: 60px 0 30px 0;
+}
+
+#SuT {
+  font-size: 400%;
+}
+
+.textSC {
+  width: 450px;
+  position: relative;
+  margin: auto;
+  font-size: 125%;
+}
+
+.priceButton, .priceBut {
+  border: solid;
+  width: 150px;
+  padding: 5px;
+  position: relative;
+  margin: auto;
+  top: 8%;
+}
+
+.priceButton:hover, .viewFbutton:hover, .buy1:hover, .buy2:hover, .buy3:hover, .ourBlogButton:hover {
+  cursor: pointer;
+}
+
+.thirdContainer {
+  display: flex;
+  padding: 0 10px 0 10px;
+}
+
+.feature1, .feature2, .feature3, .feature4{
+  height: 450px;
+  width: 250px;
+  position: relative;
+  margin: auto;
+  font-size: 110%;
+}
+
+.f1Pic, .f2Pic, .f3Pic, .f4Pic {
+  width: 250px;
+  height: 250px;
+}
+
+.f1Text, .f2Text, .f3Text, .f4Text {
+  text-align: center;
+}
+
+.fourthContainer {
+  padding: 20px 10px 0 10px;
+  height: 400px;
+  display:flex;
+  font-size: 120%;
+}
+
+.leftSide {
+  margin: 0 10px 0 0;
+}
+
+.bigImage {
+  height: 400px;
+  width: 700px;
+  margin: 20px;
+}
+
+.viewFbutton {
+  border: solid;
+  text-align: center;
+  width: 150px;
+  padding: 5px 10px 5px 10px;
+  margin: 30px 0 0 0;
+}
+
+.viewFbutton:hover, .priceBut:hover {
+  cursor: pointer;
+}
+
+.topHalf, .bottomHalf {
+  display: flex;
+  margin: 40px 20px;
+}
+
+.f1, .f2, .f3, .f4 {
+  margin: 0px 40px 0 20px;
+  width: 50%;
+  font-size: 120%;
+}
+
+.containerThree, .containerFour, .textBelow5Pics {
+  text-align: center;
+  padding: 20px;
+}
+
+.containerFour {
+  display: flex;
+}
+
+.textBelow5Pics {
+  margin: 15px 400px 20px 400px; 
+  font-size: 120%;
+}
+
+.priceBut {
+  text-align: center;
+}
+
+#blogTitle, .para1 {
+  margin: 20px;
+}
+
+.blogPic1 {
+  float: left;
+  display: flex;
+  margin: 20px;
+}
+
+.prices {
+  display: flex;
+  margin: 40px 0 0 0;
+}
+
+.price1, .price2, .price3 {
+  position: relative;
+  margin: auto;
+  border: solid;
+  width: 375px;
+  height: 500px;
+  text-align: center;
+}
+
+.bPrice, .sPrice, .gPrice {
+  margin: 20px 0 0 0;
+  font-size: 100px;
+}
+
+.mp {
+  font-style: italic;
+}
+
+.b, .s, .g {
+  height: 15%;
+}
+
+.bWords1, .sWords1, .gWords1 {
+  margin: 0 15px;
+}
+
+.bWords2, .sWords2, .gWords2 {
+  margin: 0 15px;
+  height: 100px;
+}
+
+.bWords3, .sWords3, .gWords3 {
+  height: 90px;
+}
+
+.buy1, .buy2, .buy3 {
+  border: solid;
+  padding: 5px;
+  margin: 0 100px;
+}
+
+.notConvinced {
+  height: 275px;
+  text-align: center;
+  margin: 75px 0 0 0;
+}
+
+.notConTitle {
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  font-size: 350%;
+}
+
+.notConWords {
+  margin: 0 375px 50px 375px;
+  font-size: 130%;
+}
+
+.ourBlogButton {
+  border: solid;
+  padding: 5px;
+  margin: 0 550px;
+}
+
+.foot{
+  margin: 50px 0 0 0;
+  background-image: url("http://bgfons.com/upload/grass_texture599.jpg");
+  height: 100px;
+  text-align: right;
+  padding: 0 20px;
+  color: white;
+}
+
+.footLinks {
+  text-decoration: underline;
+  padding: 35px 0 10px 0;
+  font-size: 120%;
+}
+
+#footLink1, #footLink2, #footLink3, #footLink4 {
+  color: white;
+}
+
+.Mine {
+  text-decoration: none;
+}
+
+#fantastic {
+  margin: 20px 10px;
+}
+
+.para1 {
+  margin: 10px;
+}
+
+.lSide {
+  display: flex;
+  margin: 30px 0 0 0;
+}
+
+.paragraphSet1  {
+  width: 800px;
+  margin: 0 10px;
+}
+
+.para3, .para4, .para8 {
+  margin: 30px 0 0 0;
+}
+
+.para5, .para6 {
+  margin: 30px 10px 0 10px;
+}
+
+.paragraphSet2 {
+  margin: 30px 0 0 10px;
+  display: flex;
+}
+
+.rSide {
+  width: 800px;
+  margin: -10px 0 0 10px;
+}
+
+.para10 {
+  margin: 30px 0 0 10px;
+}
+
+.para11 {
+  margin: 30px 0 50px 10px;
+}
+
+.blogPost {
+  font-size: 150%;
+}
